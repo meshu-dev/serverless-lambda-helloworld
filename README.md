@@ -16,6 +16,12 @@ This template demonstrates how to make a simple HTTP API with Node.js running on
 
 This template does not include any kind of persistence (database). For more advanced examples, check out the [serverless/examples repository](https://github.com/serverless/examples/) which includes Typescript, Mongo, DynamoDB and other examples.
 
+## Tutorial
+
+Used the following tutorial to setup serverless and create the helloworld example.
+
+[Serverless tutorial](https://www.serverless.com/framework/docs/tutorial)
+
 ## Usage
 
 ### Deployment
