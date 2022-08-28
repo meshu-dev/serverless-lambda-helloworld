@@ -1,17 +1,14 @@
 org: meshu
 app: helloworld
 service: helloworld
+
 frameworkVersion: '3'
 
 provider:
   name: aws
-  region: eu-west-1
+  region: eu-west-2
   runtime: nodejs14.x
 
 functions:
   hello:
     handler: handler.hello
-    events:
-      - httpApi:
-          path: /
-          method: get
